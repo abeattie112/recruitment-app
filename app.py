@@ -7,7 +7,7 @@ st.set_page_config(page_title="Resume Score Explorer", layout="wide")
 st.title("🔍 Resume Score Explorer")
 
 # Connect to SQLite database
-db_path = r"C:\\Users\\andrew.beattie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\Projects_2\\resume_scores.db"
+db_path = "data/resume_scores.db"
 conn = sqlite3.connect(db_path)
 
 # Sidebar for view selection
